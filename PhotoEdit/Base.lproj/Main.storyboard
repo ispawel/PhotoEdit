@@ -39,6 +39,9 @@
                                 <color key="tintColor" red="0.0" green="0.69434768759999999" blue="0.80159028040000002" alpha="0.54925443269999996" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="pencil.slash" catalog="system"/>
+                                <connections>
+                                    <action selector="edit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GVD-cK-kiU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -54,6 +57,7 @@
                     </view>
                     <connections>
                         <outlet property="addButton" destination="2Ju-0J-yBY" id="0Pr-r2-LUa"/>
+                        <outlet property="picture" destination="tL2-uP-GOV" id="4iw-eX-N9e"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
