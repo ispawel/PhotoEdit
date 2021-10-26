@@ -14,6 +14,8 @@
 		E248156227286D5E00D6363A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E248156127286D5E00D6363A /* Assets.xcassets */; };
 		E248156527286D5F00D6363A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E248156327286D5F00D6363A /* LaunchScreen.storyboard */; };
 		E248156D2728709200D6363A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248156C2728709200D6363A /* ImagePicker.swift */; };
+		E24815742728821200D6363A /* Editor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24815732728821200D6363A /* Editor.storyboard */; };
+		E24815762728825100D6363A /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24815752728825100D6363A /* EditorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E248156427286D5F00D6363A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E248156627286D5F00D6363A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E248156C2728709200D6363A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		E24815732728821200D6363A /* Editor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Editor.storyboard; sourceTree = "<group>"; };
+		E24815752728825100D6363A /* EditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +70,18 @@
 				E248156327286D5F00D6363A /* LaunchScreen.storyboard */,
 				E248156627286D5F00D6363A /* Info.plist */,
 				E248156C2728709200D6363A /* ImagePicker.swift */,
+				E248156E27287FC800D6363A /* Editor */,
 			);
 			path = PhotoEdit;
+			sourceTree = "<group>";
+		};
+		E248156E27287FC800D6363A /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				E24815732728821200D6363A /* Editor.storyboard */,
+				E24815752728825100D6363A /* EditorViewController.swift */,
+			);
+			path = Editor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +145,7 @@
 				E248156527286D5F00D6363A /* LaunchScreen.storyboard in Resources */,
 				E248156227286D5E00D6363A /* Assets.xcassets in Resources */,
 				E248156027286D0500D6363A /* Main.storyboard in Resources */,
+				E24815742728821200D6363A /* Editor.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +159,7 @@
 				E248155D27286D0500D6363A /* ViewController.swift in Sources */,
 				E248156D2728709200D6363A /* ImagePicker.swift in Sources */,
 				E248155927286D0500D6363A /* AppDelegate.swift in Sources */,
+				E24815762728825100D6363A /* EditorViewController.swift in Sources */,
 				E248155B27286D0500D6363A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
