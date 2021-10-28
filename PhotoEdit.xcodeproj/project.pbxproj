@@ -16,6 +16,7 @@
 		E248156D2728709200D6363A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248156C2728709200D6363A /* ImagePicker.swift */; };
 		E24815742728821200D6363A /* Editor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24815732728821200D6363A /* Editor.storyboard */; };
 		E24815762728825100D6363A /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24815752728825100D6363A /* EditorViewController.swift */; };
+		E2F65FB3272B099A007323C6 /* UIColorrr.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F65FB2272B099A007323C6 /* UIColorrr.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E248156C2728709200D6363A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		E24815732728821200D6363A /* Editor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Editor.storyboard; sourceTree = "<group>"; };
 		E24815752728825100D6363A /* EditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
+		E2F65FB2272B099A007323C6 /* UIColorrr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorrr.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		E248155727286D0500D6363A /* PhotoEdit */ = {
 			isa = PBXGroup;
 			children = (
+				E2F65FB2272B099A007323C6 /* UIColorrr.swift */,
 				E248155827286D0500D6363A /* AppDelegate.swift */,
 				E248155A27286D0500D6363A /* SceneDelegate.swift */,
 				E248155C27286D0500D6363A /* ViewController.swift */,
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E248155D27286D0500D6363A /* ViewController.swift in Sources */,
+				E2F65FB3272B099A007323C6 /* UIColorrr.swift in Sources */,
 				E248156D2728709200D6363A /* ImagePicker.swift in Sources */,
 				E248155927286D0500D6363A /* AppDelegate.swift in Sources */,
 				E24815762728825100D6363A /* EditorViewController.swift in Sources */,
